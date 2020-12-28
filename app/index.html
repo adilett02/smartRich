@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="--vh: 8.12px">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,9 +25,11 @@
             </div>
             <nav class="menu">
               <ul class="header__menu">
-                <li class="header__menu-item"><a href="#">О нас</a></li>
+                <li class="header__menu-item"><a href="#section2">О нас</a></li>
+                <li class="header__menu-item">
+                  <a href="#section14">Отзывы</a>
+                </li>
                 <li class="header__menu-item"><a href="#">Контакты</a></li>
-                <li class="header__menu-item"><a href="#">Отзывы</a></li>
               </ul>
               <!-- <form class="search" action="search">
                 <input type="search" name="search" placeholder="Поиск" />
@@ -105,7 +107,7 @@
       </div>
     </section>
 
-    <section class="section2">
+    <section class="section2" id="section2">
       <picture>
         <source srcset="img/leaves/leave2.webp" type="image/webp" />
         <img class="leave2 animated" src="img/leaves/leave2.png" alt="leave2" />
@@ -436,7 +438,7 @@
               <source srcset="img/cloud.webp" type="image/webp" />
               <img class="cloud" src="img/cloud.jpg" alt="cloud" />
             </picture>
-            <a class="order" href="#">Заказать сейчас</a>
+            <a class="order">Заказать сейчас</a>
             <!-- <button class="order">Заказать сейчас</button> -->
             <p>
               Начни сегодня пить зеленый чай с Ганодермой, и получай с каждой
@@ -447,7 +449,7 @@
       </div>
     </section>
 
-    <section class="section14">
+    <section class="section14" id="section14">
       <div class="container">
         <h2>ОТЗЫВЫ НАШИХ ДОВОЛЬНЫХ КЛИЕНТОВ</h2>
         <div class="reviews__list">
@@ -599,7 +601,7 @@
             </p>
           </div>
           <div class="left-block">
-            <a class="order last-order" href="#">Заказать сейчас</a>
+            <a class="order last-order">Заказать сейчас</a>
             <p class="last-text">
               Специальная технология экстракции грибов, используемая на
               производстве Smart&Rich, позволяет нам создавать уникальные кофе и
@@ -614,6 +616,51 @@
         </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__icons">
+          <div class="footer__icons-item">
+            <a href="#">
+              <img src="img/icons/facebook.png" alt="facebook-icon" />
+            </a>
+          </div>
+          <div class="footer__icons-item">
+            <a href="#">
+              <img src="img/icons/instagram.png" alt="instagram-icon" />
+            </a>
+          </div>
+          <div class="footer__icons-item">
+            <a href="#">
+              <img src="img/icons/site.png" alt="site-icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal-window">
+      <div class="container">
+        <div class="modal-wrapper">
+          <img class="close-modal" src="img/icons/close.svg" alt="">
+          <form action="">
+            <!-- <picture>
+              <source srcset="img/leaves/leave5.webp" type="image/webp" />
+              <img class="modal-leave animated" src="img/leaves/leave5.png" alt="leave5" />
+            </picture> -->
+            <div class="form__group">
+              <input type="name" name="name" placeholder="Ваше имя" />
+            </div>
+            <div class="form__group">
+              <input type="email" name="email" placeholder="Ваш E-mail" />
+            </div>
+            <div class="form__group">
+              <input type="number" name="number" placeholder="Номер телефона" />
+            </div>
+            <button type="submit">Отправить</button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
 
     <!-- <picture>
       <source srcset="img/cup.webp" type="image/webp" />

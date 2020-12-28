@@ -256,6 +256,9 @@
   .animated {
     display: none;
   }
+  .modal-wrapper{
+    width: 400px;
+  }
 }
 @media (max-width: 636px) {
   .leaves {
@@ -315,6 +318,9 @@
     .down-arrow{
       margin-top: 0;
     }
+  }
+  .footer__icons-item{
+    width: 40px;
   }
   .can-find {
     background-image: initial;
@@ -446,5 +452,21 @@
   }
   .section16 h2 {
     padding: 0;
+  }
+  .footer{
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .footer__icons-item{
+    width: 30px;
+  }
+  .modal-wrapper{
+    width: 290px;
+  }
+  .modal-window input{
+    padding: 10px;
+  }
+  .modal-window form {
+    padding: 30px;
   }
 }
